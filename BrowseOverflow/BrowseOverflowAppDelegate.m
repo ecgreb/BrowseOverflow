@@ -11,6 +11,9 @@
 #import "BrowseOverflowObjectConfiguration.h"
 #import "TopicTableDataSource.h"
 #import "Topic.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDASLLogger.h"
 
 @interface BrowseOverflowAppDelegate ()
 
@@ -23,6 +26,8 @@
 @synthesize window=_window;
 
 @synthesize navigationController=_navigationController;
+
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (NSArray *)topics {
     NSString *tags[] = { @"iphone", @"cocoa-touch", @"uikit", @"objective-c", @"xcode" };
@@ -38,6 +43,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"didFinishLaunchingWithOptions");
+
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    DDLogError(@"Error");
+    DDLogWarn(@"Warn");
+    DDLogInfo(@"Info");
+    DDLogVerbose(@"Verbose");
+
     BrowseOverflowViewController *firstViewController = [[BrowseOverflowViewController alloc] initWithNibName: nil bundle: nil];
     firstViewController.objectConfiguration = [[BrowseOverflowObjectConfiguration alloc] init];
     TopicTableDataSource *dataSource = [[TopicTableDataSource alloc] init];
