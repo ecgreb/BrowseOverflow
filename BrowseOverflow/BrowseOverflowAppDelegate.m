@@ -46,6 +46,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
     DDLogError(@"Error");
     DDLogWarn(@"Warn");
     DDLogInfo(@"Info");
