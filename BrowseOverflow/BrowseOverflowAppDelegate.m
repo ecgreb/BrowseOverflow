@@ -37,6 +37,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"didFinishLaunchingWithOptions");
     BrowseOverflowViewController *firstViewController = [[BrowseOverflowViewController alloc] initWithNibName: nil bundle: nil];
     firstViewController.objectConfiguration = [[BrowseOverflowObjectConfiguration alloc] init];
     TopicTableDataSource *dataSource = [[TopicTableDataSource alloc] init];
