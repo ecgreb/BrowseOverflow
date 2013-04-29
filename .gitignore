@@ -1,0 +1,9 @@
+# Xcode
+BrowseOverflow.xcodeproj/project.xcworkspace/xcuserdata/
+BrowseOverflow.xcodeproj/xcuserdata/
+
+# AppCode
+.idea/
+
+# OS X
+.DS_Store
