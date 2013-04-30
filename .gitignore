@@ -7,3 +7,6 @@ BrowseOverflow.xcodeproj/xcuserdata/
 
 # OS X
 .DS_Store
+
+# CocoaPods
+Pods/

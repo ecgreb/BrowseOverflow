@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1433DF02F4EB49C0A8A85100"
+               BlueprintIdentifier = "814214E791F84E6780BE39BA"
                BuildableName = "libPods-BrowseOverflowTests.a"
                BlueprintName = "Pods-BrowseOverflowTests"
                ReferencedContainer = "container:Pods.xcodeproj">
