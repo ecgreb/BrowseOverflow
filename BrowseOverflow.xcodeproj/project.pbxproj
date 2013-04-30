@@ -103,11 +103,7 @@
 		98EC97F8144CB11B001F074D /* BrowseOverflowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A548DF130D3ABD003C4F0F /* BrowseOverflowAppDelegate.m */; };
 		98F82F2813E1863800668CAC /* TopicTableDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */; };
 		AEE001662E5EC3E5C14A3195 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0099D5F7ABEE6F8783550 /* MathSpec.m */; };
-		AEE005D42BB829A8AC184327 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE007286073C8998F89448D /* DDAbstractDatabaseLogger.m */; };
-		AEE0083D5CC1B2D22072D2E8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00468603167CF7BB9FFE7 /* DDTTYLogger.m */; };
-		AEE00A19490A51BAEC8DCE45 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00EC4836ED8DE846AFB15 /* DDLog.m */; };
-		AEE00A414735C06E539CA798 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00751D93F3481CBAC0499 /* DDFileLogger.m */; };
-		AEE00A8173EFDCEC9071039C /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE000D272B73A3608B6CC9E /* DDASLLogger.m */; };
+		DDA397AEB0614F59ACAFAAE1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C579DD86871B43079C4CB815 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +117,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19C3005733114D629A101186 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		9803B9D1134328FC00FEF72D /* QuestionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionBuilder.h; sourceTree = "<group>"; };
 		9803B9D2134328FC00FEF72D /* QuestionBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionBuilder.m; sourceTree = "<group>"; };
 		9803B9D5134330E000FEF72D /* FakeQuestionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeQuestionBuilder.h; sourceTree = "<group>"; };
@@ -249,17 +246,8 @@
 		98EC97F5144CADFA001F074D /* BrowseOverflowAppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowAppDelegateTests.m; sourceTree = "<group>"; };
 		98F82F2613E1863800668CAC /* TopicTableDataSourceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableDataSourceTests.h; sourceTree = "<group>"; };
 		98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableDataSourceTests.m; sourceTree = "<group>"; };
-		AEE000D272B73A3608B6CC9E /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = CocoaLumberjack/Lumberjack/DDASLLogger.m; sourceTree = "<group>"; };
-		AEE00468603167CF7BB9FFE7 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = CocoaLumberjack/Lumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
-		AEE007286073C8998F89448D /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = CocoaLumberjack/Lumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		AEE00731ABAD8C5BEAC1FDF9 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = CocoaLumberjack/Lumberjack/DDLog.h; sourceTree = "<group>"; };
-		AEE00751D93F3481CBAC0499 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = CocoaLumberjack/Lumberjack/DDFileLogger.m; sourceTree = "<group>"; };
 		AEE0099D5F7ABEE6F8783550 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
-		AEE00AAD20D674A6106836A9 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = CocoaLumberjack/Lumberjack/DDFileLogger.h; sourceTree = "<group>"; };
-		AEE00DBDAE23CBC25E758842 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = CocoaLumberjack/Lumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		AEE00DE1970AE999EEC46D87 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = CocoaLumberjack/Lumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
-		AEE00EC4836ED8DE846AFB15 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = CocoaLumberjack/Lumberjack/DDLog.m; sourceTree = "<group>"; };
-		AEE00EDEC317CA98681BEF7B /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = CocoaLumberjack/Lumberjack/DDASLLogger.h; sourceTree = "<group>"; };
+		C579DD86871B43079C4CB815 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowTests.xcconfig"; path = "Pods/Pods-BrowseOverflowTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		E4194A10D4454BBEAD77D9F0 /* libPods-BrowseOverflowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrowseOverflowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -272,6 +260,7 @@
 				98A548D0130D3ABC003C4F0F /* UIKit.framework in Frameworks */,
 				98A548D2130D3ABC003C4F0F /* Foundation.framework in Frameworks */,
 				98A548D4130D3ABC003C4F0F /* CoreGraphics.framework in Frameworks */,
+				DDA397AEB0614F59ACAFAAE1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,17 +316,8 @@
 				98A548F5130D3ABF003C4F0F /* BrowseOverflowTests */,
 				98A548CE130D3ABC003C4F0F /* Frameworks */,
 				98A548CC130D3ABC003C4F0F /* Products */,
-				AEE00731ABAD8C5BEAC1FDF9 /* DDLog.h */,
-				AEE00EC4836ED8DE846AFB15 /* DDLog.m */,
-				AEE00DE1970AE999EEC46D87 /* DDTTYLogger.h */,
-				AEE00468603167CF7BB9FFE7 /* DDTTYLogger.m */,
-				AEE00EDEC317CA98681BEF7B /* DDASLLogger.h */,
-				AEE000D272B73A3608B6CC9E /* DDASLLogger.m */,
-				AEE00DBDAE23CBC25E758842 /* DDAbstractDatabaseLogger.h */,
-				AEE007286073C8998F89448D /* DDAbstractDatabaseLogger.m */,
-				AEE00AAD20D674A6106836A9 /* DDFileLogger.h */,
-				AEE00751D93F3481CBAC0499 /* DDFileLogger.m */,
 				DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */,
+				19C3005733114D629A101186 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -357,6 +337,7 @@
 				98A548D1130D3ABC003C4F0F /* Foundation.framework */,
 				98A548D3130D3ABC003C4F0F /* CoreGraphics.framework */,
 				E4194A10D4454BBEAD77D9F0 /* libPods-BrowseOverflowTests.a */,
+				C579DD86871B43079C4CB815 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -515,9 +496,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98A54902130D3ABF003C4F0F /* Build configuration list for PBXNativeTarget "BrowseOverflow" */;
 			buildPhases = (
+				A081F82DD92B4C75B4A76222 /* Check Pods Manifest.lock */,
 				98A548C7130D3ABC003C4F0F /* Sources */,
 				98A548C8130D3ABC003C4F0F /* Frameworks */,
 				98A548C9130D3ABC003C4F0F /* Resources */,
+				07CA22DBCF444E07A1C6BBC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -608,6 +591,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		07CA22DBCF444E07A1C6BBC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		28246C8B33B24BE887344B32 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,6 +631,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A081F82DD92B4C75B4A76222 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 		};
 		BB07E91707E940E694A95DB2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -678,11 +689,6 @@
 				9822D314140D480800396141 /* QuestionDetailCell.m in Sources */,
 				9862C2771430DF9800AF3A79 /* AnswerCell.m in Sources */,
 				98E4ABB714609AFE00B5C95B /* BrowseOverflowObjectConfiguration.m in Sources */,
-				AEE00A19490A51BAEC8DCE45 /* DDLog.m in Sources */,
-				AEE0083D5CC1B2D22072D2E8 /* DDTTYLogger.m in Sources */,
-				AEE00A8173EFDCEC9071039C /* DDASLLogger.m in Sources */,
-				AEE005D42BB829A8AC184327 /* DDAbstractDatabaseLogger.m in Sources */,
-				AEE00A414735C06E539CA798 /* DDFileLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,8 +833,9 @@
 		};
 		98A54903130D3ABF003C4F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C3005733114D629A101186 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -849,8 +856,9 @@
 		};
 		98A54904130D3ABF003C4F0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C3005733114D629A101186 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -895,7 +903,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\" \"${PROJECT_DIR}/Pods\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\" \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -926,7 +934,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\" \"${PROJECT_DIR}/Pods\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\" \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;

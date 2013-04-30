@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1433DF02F4EB49C0A8A85100"
-               BuildableName = "libPods-BrowseOverflowTests.a"
-               BlueprintName = "Pods-BrowseOverflowTests"
+               BlueprintIdentifier = "C059FE88A12A4156B37AD7A8"
+               BuildableName = "libPods.a"
+               BlueprintName = "Pods"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,15 +41,6 @@
       allowLocationSimulation = "YES">
       <AdditionalOptions>
       </AdditionalOptions>
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98A548CA130D3ABC003C4F0F"
-            BuildableName = "BrowseOverflow.app"
-            BlueprintName = "BrowseOverflow"
-            ReferencedContainer = "container:../BrowseOverflow.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       shouldUseLaunchSchemeArgsEnv = "YES"

@@ -11,9 +11,8 @@
 #import "BrowseOverflowObjectConfiguration.h"
 #import "TopicTableDataSource.h"
 #import "Topic.h"
-#import "DDLog.h"
-#import "DDTTYLogger.h"
 #import "DDASLLogger.h"
+#import "DDTTYLogger.h"
 
 @interface BrowseOverflowAppDelegate ()
 
@@ -42,16 +41,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog(@"didFinishLaunchingWithOptions");
-
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
-    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
-    DDLogError(@"Error");
-    DDLogWarn(@"Warn");
-    DDLogInfo(@"Info");
-    DDLogVerbose(@"Verbose");
-
+    [self logTest];
     BrowseOverflowViewController *firstViewController = [[BrowseOverflowViewController alloc] initWithNibName: nil bundle: nil];
     firstViewController.objectConfiguration = [[BrowseOverflowObjectConfiguration alloc] init];
     TopicTableDataSource *dataSource = [[TopicTableDataSource alloc] init];
@@ -61,6 +51,17 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)logTest {
+    NSLog(@"didFinishLaunchingWithOptions");
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    DDLogError(@"Error");
+    DDLogWarn(@"Warn");
+    DDLogInfo(@"Info");
+    DDLogVerbose(@"Verbose");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
