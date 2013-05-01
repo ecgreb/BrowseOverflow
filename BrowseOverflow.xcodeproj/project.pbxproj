@@ -103,6 +103,7 @@
 		98EC97F8144CB11B001F074D /* BrowseOverflowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A548DF130D3ABD003C4F0F /* BrowseOverflowAppDelegate.m */; };
 		98F82F2813E1863800668CAC /* TopicTableDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */; };
 		AEE001662E5EC3E5C14A3195 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0099D5F7ABEE6F8783550 /* MathSpec.m */; };
+		AEE00B33854A38509B1EA5FA /* BrowseOverflowAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE009E3E156F627528D98D8 /* BrowseOverflowAppDelegateSpec.m */; };
 		DDA397AEB0614F59ACAFAAE1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C579DD86871B43079C4CB815 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -247,6 +248,7 @@
 		98F82F2613E1863800668CAC /* TopicTableDataSourceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableDataSourceTests.h; sourceTree = "<group>"; };
 		98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableDataSourceTests.m; sourceTree = "<group>"; };
 		AEE0099D5F7ABEE6F8783550 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
+		AEE009E3E156F627528D98D8 /* BrowseOverflowAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowAppDelegateSpec.m; sourceTree = "<group>"; };
 		C579DD86871B43079C4CB815 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowTests.xcconfig"; path = "Pods/Pods-BrowseOverflowTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		E4194A10D4454BBEAD77D9F0 /* libPods-BrowseOverflowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrowseOverflowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -485,6 +487,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE0099D5F7ABEE6F8783550 /* MathSpec.m */,
+				AEE009E3E156F627528D98D8 /* BrowseOverflowAppDelegateSpec.m */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -749,6 +752,7 @@
 				98E4ABB814609AFE00B5C95B /* BrowseOverflowObjectConfiguration.m in Sources */,
 				98BF4DEA1471ABAF008A2D66 /* TestObjectConfiguration.m in Sources */,
 				AEE001662E5EC3E5C14A3195 /* MathSpec.m in Sources */,
+				AEE00B33854A38509B1EA5FA /* BrowseOverflowAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
