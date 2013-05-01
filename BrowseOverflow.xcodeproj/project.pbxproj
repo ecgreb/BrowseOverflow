@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC71BB4A4F94B52BE267423 /* libPods-BrowseOverflowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4194A10D4454BBEAD77D9F0 /* libPods-BrowseOverflowTests.a */; };
 		9803B9D3134328FC00FEF72D /* QuestionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803B9D2134328FC00FEF72D /* QuestionBuilder.m */; };
 		9803B9D4134328FC00FEF72D /* QuestionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803B9D2134328FC00FEF72D /* QuestionBuilder.m */; };
 		9803B9D7134330E000FEF72D /* FakeQuestionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803B9D6134330E000FEF72D /* FakeQuestionBuilder.m */; };
@@ -101,6 +102,9 @@
 		98EC97F6144CADFA001F074D /* BrowseOverflowAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC97F5144CADFA001F074D /* BrowseOverflowAppDelegateTests.m */; };
 		98EC97F8144CB11B001F074D /* BrowseOverflowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A548DF130D3ABD003C4F0F /* BrowseOverflowAppDelegate.m */; };
 		98F82F2813E1863800668CAC /* TopicTableDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */; };
+		AEE001662E5EC3E5C14A3195 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0099D5F7ABEE6F8783550 /* MathSpec.m */; };
+		AEE00B33854A38509B1EA5FA /* BrowseOverflowAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE009E3E156F627528D98D8 /* BrowseOverflowAppDelegateSpec.m */; };
+		DDA397AEB0614F59ACAFAAE1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C579DD86871B43079C4CB815 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +118,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19C3005733114D629A101186 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		9803B9D1134328FC00FEF72D /* QuestionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionBuilder.h; sourceTree = "<group>"; };
 		9803B9D2134328FC00FEF72D /* QuestionBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionBuilder.m; sourceTree = "<group>"; };
 		9803B9D5134330E000FEF72D /* FakeQuestionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeQuestionBuilder.h; sourceTree = "<group>"; };
@@ -242,6 +247,11 @@
 		98EC97F5144CADFA001F074D /* BrowseOverflowAppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowAppDelegateTests.m; sourceTree = "<group>"; };
 		98F82F2613E1863800668CAC /* TopicTableDataSourceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableDataSourceTests.h; sourceTree = "<group>"; };
 		98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableDataSourceTests.m; sourceTree = "<group>"; };
+		AEE0099D5F7ABEE6F8783550 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
+		AEE009E3E156F627528D98D8 /* BrowseOverflowAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowAppDelegateSpec.m; sourceTree = "<group>"; };
+		C579DD86871B43079C4CB815 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowTests.xcconfig"; path = "Pods/Pods-BrowseOverflowTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E4194A10D4454BBEAD77D9F0 /* libPods-BrowseOverflowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrowseOverflowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +262,7 @@
 				98A548D0130D3ABC003C4F0F /* UIKit.framework in Frameworks */,
 				98A548D2130D3ABC003C4F0F /* Foundation.framework in Frameworks */,
 				98A548D4130D3ABC003C4F0F /* CoreGraphics.framework in Frameworks */,
+				DDA397AEB0614F59ACAFAAE1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +273,7 @@
 				98A548F0130D3ABF003C4F0F /* UIKit.framework in Frameworks */,
 				98A548F1130D3ABF003C4F0F /* Foundation.framework in Frameworks */,
 				98A548F2130D3ABF003C4F0F /* CoreGraphics.framework in Frameworks */,
+				1FC71BB4A4F94B52BE267423 /* libPods-BrowseOverflowTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,8 @@
 				98A548F5130D3ABF003C4F0F /* BrowseOverflowTests */,
 				98A548CE130D3ABC003C4F0F /* Frameworks */,
 				98A548CC130D3ABC003C4F0F /* Products */,
+				DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */,
+				19C3005733114D629A101186 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -324,6 +338,8 @@
 				98A548CF130D3ABC003C4F0F /* UIKit.framework */,
 				98A548D1130D3ABC003C4F0F /* Foundation.framework */,
 				98A548D3130D3ABC003C4F0F /* CoreGraphics.framework */,
+				E4194A10D4454BBEAD77D9F0 /* libPods-BrowseOverflowTests.a */,
+				C579DD86871B43079C4CB815 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -442,6 +458,7 @@
 				98EC97F5144CADFA001F074D /* BrowseOverflowAppDelegateTests.m */,
 				98E4ABB11460985700B5C95B /* BrowseOverflowObjectConfigurationTests.h */,
 				98E4ABB21460985700B5C95B /* BrowseOverflowObjectConfigurationTests.m */,
+				AEE002BC1DE47CD5A1164E5D /* Specs */,
 			);
 			path = BrowseOverflowTests;
 			sourceTree = "<group>";
@@ -466,6 +483,15 @@
 			name = "Testing Categories";
 			sourceTree = "<group>";
 		};
+		AEE002BC1DE47CD5A1164E5D /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				AEE0099D5F7ABEE6F8783550 /* MathSpec.m */,
+				AEE009E3E156F627528D98D8 /* BrowseOverflowAppDelegateSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -473,9 +499,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98A54902130D3ABF003C4F0F /* Build configuration list for PBXNativeTarget "BrowseOverflow" */;
 			buildPhases = (
+				A081F82DD92B4C75B4A76222 /* Check Pods Manifest.lock */,
 				98A548C7130D3ABC003C4F0F /* Sources */,
 				98A548C8130D3ABC003C4F0F /* Frameworks */,
 				98A548C9130D3ABC003C4F0F /* Resources */,
+				07CA22DBCF444E07A1C6BBC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -490,10 +518,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98A54905130D3ABF003C4F0F /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */;
 			buildPhases = (
+				28246C8B33B24BE887344B32 /* Check Pods Manifest.lock */,
 				98A548EA130D3ABF003C4F0F /* Sources */,
 				98A548EB130D3ABF003C4F0F /* Frameworks */,
 				98A548EC130D3ABF003C4F0F /* Resources */,
 				98A548ED130D3ABF003C4F0F /* ShellScript */,
+				BB07E91707E940E694A95DB2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -564,6 +594,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		07CA22DBCF444E07A1C6BBC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		28246C8B33B24BE887344B32 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		98A548ED130D3ABF003C4F0F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,6 +634,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A081F82DD92B4C75B4A76222 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		BB07E91707E940E694A95DB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BrowseOverflowTests-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -665,6 +751,8 @@
 				98E4ABB31460985700B5C95B /* BrowseOverflowObjectConfigurationTests.m in Sources */,
 				98E4ABB814609AFE00B5C95B /* BrowseOverflowObjectConfiguration.m in Sources */,
 				98BF4DEA1471ABAF008A2D66 /* TestObjectConfiguration.m in Sources */,
+				AEE001662E5EC3E5C14A3195 /* MathSpec.m in Sources */,
+				AEE00B33854A38509B1EA5FA /* BrowseOverflowAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,8 +837,9 @@
 		};
 		98A54903130D3ABF003C4F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C3005733114D629A101186 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -771,8 +860,9 @@
 		};
 		98A54904130D3ABF003C4F0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C3005733114D629A101186 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -793,6 +883,7 @@
 		};
 		98A54906130D3ABF003C4F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
@@ -810,18 +901,20 @@
 					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = (
+					"-ObjC",
 					"-framework",
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\" \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		98A54907130D3ABF003C4F0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6B1CFCA0E04532A2523273 /* Pods-BrowseOverflowTests.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
@@ -839,12 +932,13 @@
 					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = (
+					"-ObjC",
 					"-framework",
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\" \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
